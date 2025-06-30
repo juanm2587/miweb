@@ -3,6 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="/img/debian.png" type="image/x-icon">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
+  <!-- Font awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!--Estilos de mi web-->
   <link rel="stylesheet" href="./css/styles.css">
   <title>Mi Web</title>
@@ -10,19 +19,46 @@
 <body>
   <!-- ------------cabecera de mi pagina------------ -->
   <header>
-    <h1>prueba</h1>
-    <h2>Blog personal</h2>
+    <div class="titulo">
+      <img src="/img/debian.png" width="100" alt="">
+      <h1>Mi Web</h1>
+    </div>    
+
+    <!--Barra de menu-->
     <nav>
       <ul>
         <li><a href="">Inicio</a></li>
         <li><a href="./page/fotos.html">Fotos</a></li>
         <li><a href="./page/contacto.html">Contacto</a></li>
+
+        <li><i class="fa-solid fa-house"></i> <a href="#inicio">Inicio</a></li>
+        <li><i class="fa-solid fa-graduation-cap"></i> <a href="#cursos">Cursos</a></li>
+        <li><i class="fa-solid fa-envelope"></i><a href="#contacto">Contacto</a></li>
       </ul>
     </nav>
   </header>
   
   <!-- ------------cuerpo o contenido principal de la pagina------------ -->
   <main>
+
+<!-- ------------cards------------ -->
+<section>
+  <h2></h2>
+  <p></p>
+  <div class="cursos">
+    <!-- ------------Card individual------------ -->
+    <div class="curso">
+      <img src="" alt="">
+      <div class="curso-contenido">
+        <h2></h2>
+        <p></p>
+        <a href="">Ver + info</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Seccion de fotos -->
     <section>
       <h3>Nana</h3>
       <img src="./img/nana.jpg" alt="">
