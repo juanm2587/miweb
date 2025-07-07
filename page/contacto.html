@@ -15,15 +15,15 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!--Estilos de mi web-->
   <link rel="stylesheet" href="/css/styles.css">
-  <title>Mi Web</title>
+  <title>Contacto</title>
 </head>
 
 <body>
   <!-- ------------cabecera de mi pagina------------ -->
   <header class="header">
     <div class="header__titulo">
-      <img src="/img/debian.png" width="100" alt="">
-      <h1>Mi Web</h1>
+      <img src="/img/debian.png" width="100" alt="Logo Debian">
+      <h1>Contacto</h1>
     </div>
 
     <!--Barra de menu-->
@@ -42,46 +42,42 @@
 
   <!-- ------------cuerpo o contenido principal de la pagina------------ -->
   <main>
-    <!-- ------------cards------------ -->
-    <section class="cards">
-      <h2 class="cards__titulo"></h2>
-      <p class="cards__contenido"></p>
-      
-      <!-- ------------Card individual------------ -->
-      <div class="cards__card">
-        <img class="card__img" src="" alt="">
-        <div class="card__contenido">
-          <h2 class="card__titulo"></h2>
-          <p class="card__contnido"></p>
-          <a class="card__link" href="">Ver + info</a>
-        </div>
-      </div>
-      
-      <div class="cards__card">
-        <img class="card__img" src="" alt="">
-        <div class="card__contenido">
-          <h2 class="card__titulo"></h2>
-          <p class="card__contnido"></p>
-          <a class="card__link" href="">Ver + info</a>
-        </div>
-      </div>
-      
-      <div class="cards__card">
-        <img class="card__img" src="" alt="">
-        <div class="card__contenido">
-          <h2 class="card__titulo"></h2>
-          <p class="card__contnido"></p>
-          <a class="card__link" href="">Ver + info</a>
-        </div>
 
-        <div class="cards__card">
-          <img class="card__img" src="" alt="">
-          <div class="card__contenido">
-            <h2 class="card__titulo"></h2>
-            <p class="card__contnido"></p>
-            <a class="card__link" href="">Ver + info</a>
-            </div>
-      </div>
+    <section class="contacto">
+      <h2>Contacto</h2>
+      <form class="contacto__form" action="https://formspree.io/f/xqakzgpv" method="post">
+        <h3>Dejanos tu consulta</h3>
+        <div>
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre y apellido">
+        </div>
+        <div>
+          <label for="email">Correo electrónico:
+            <input type="email" id="email" name="email" required placeholder="Tu correo electrónico">
+          </label>
+        </div>
+        <div class="form__mensaje">
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" rows="4" cols="50" required placeholder="Tu mensaje"></textarea>
+        </div>
+        <div>
+          <button type="submit">Enviar</button>
+          <button type="reset">Borrar</button>
+        </div>
+      </form>
+      <h3>Visitanos</h3>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26266.42353318966!2d-58.54566125966238!3d-34.62178400002754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc82056fe6581%3A0x93ca48cabe90dbd1!2sEscuela%20Media%202%20DE%2017%20%22Rumania%22!5e0!3m2!1ses!2sar!4v1751845659575!5m2!1ses!2sar"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+      <h3>Escribinos</h3>
+      <ul>
+        <li><i class="fa-regular fa-envelope"></i> <a href="mailto:cursospremium@tt.com" target="_blank">Envianos un
+            e-mail</a></li>
+        <li><i class="fa-brands fa-whatsapp"></i> <a href="https://wa.me/15551234567" target="_blank">Mandanos
+            un whatsapp</a></li>
+      </ul>
     </section>
   </main>
 
