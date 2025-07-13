@@ -29,13 +29,13 @@
     <!--Barra de menu-->
     <nav class="header__menu">
       <ul class="menu__lista">
-        <li><a href="/index.html">Inicio</a></li>
-        <li><a href="/page/fotos.html">Fotos</a></li>
-        <li><a href="/page/contacto.html">Contacto</a></li>
-
-        <li><i class="fa-solid fa-house"></i> <a href="#inicio">Inicio</a></li>
-        <li><i class="fa-solid fa-graduation-cap"></i> <a href="#cursos">Cursos</a></li>
-        <li><i class="fa-solid fa-envelope"></i><a href="#contacto">Contacto</a></li>
+        <li><i class="fa-solid fa-house"></i><a href="/index.html">Inicio</a></li>
+        <li><i class="fa-solid fa-graduation-cap"></i><a href="/page/fotos.html">Fotos</a></li>
+        <li><i class="fa-solid fa-envelope"></i><a href="/page/contacto.html">Contacto</a></li>
+        <!--Agregar nueva seccion a la web-->
+        <!--crear una copia de base.html y pegarlo en /page, cambiar el nombre a charlas.html. Esta nueva seccion debe estar en todas las demas paginas "index.html, fotos.html, contacto.html" y a su vez deben redireccionarse entre ellas.
+        Agregar el footer a esta nueva seccion-->
+        <li><a href=""></a></li>
       </ul>
     </nav>
   </header>
@@ -44,44 +44,40 @@
   <main>
     <!-- ------------cards------------ -->
     <section class="cards">
-      <h2 class="cards__titulo"></h2>
-      <p class="cards__contenido"></p>
+      <h2 class="cards__titulo">Mis proyectos</h2>
+      <p class="cards__contenido">Algunas fotos de mis viajes</p>
       
       <!-- ------------Card individual------------ -->
+      <!--Ejemplo de card, aplicar esto a las otras 2 cards-->
       <div class="cards__card">
-        <img class="card__img" src="" alt="">
+        <img class="card__img" src="/img/PandaRojo.jpg" alt="">
         <div class="card__contenido">
-          <h2 class="card__titulo"></h2>
-          <p class="card__contnido"></p>
+          <h2 class="card__titulo">Panda Rojo</h2>
+          <p class="card__contnido">"El Panda Rojo camina por los bosques de bambú con los brazos abiertos para dar un abrazo"</p>
           <a class="card__link" href="">Ver + info</a>
         </div>
       </div>
-      
-      <div class="cards__card">
-        <img class="card__img" src="" alt="">
-        <div class="card__contenido">
-          <h2 class="card__titulo"></h2>
-          <p class="card__contnido"></p>
-          <a class="card__link" href="">Ver + info</a>
-        </div>
-      </div>
-      
-      <div class="cards__card">
-        <img class="card__img" src="" alt="">
-        <div class="card__contenido">
-          <h2 class="card__titulo"></h2>
-          <p class="card__contnido"></p>
-          <a class="card__link" href="">Ver + info</a>
-        </div>
 
-        <div class="cards__card">
-          <img class="card__img" src="" alt="">
-          <div class="card__contenido">
-            <h2 class="card__titulo"></h2>
-            <p class="card__contnido"></p>
-            <a class="card__link" href="">Ver + info</a>
-            </div>
+      <!-- ------------Crad 2------------ -->
+      <div class="cards__card">
+        <img class="card__img" src="" alt=""><!--ruta de imagen en src-->
+        <div class="card__contenido">
+          <h2 class="card__titulo"></h2><!--titulo-->
+          <p class="card__contnido"></p><!--descripcion-->
+          <a class="card__link" href="">Ver + info</a>
+        </div>
       </div>
+
+      <!-- ------------Crad 3------------ -->
+      <div class="cards__card">
+        <img class="card__img" src="" alt=""><!--ruta de imagen en src-->
+        <div class="card__contenido">
+          <h2 class="card__titulo"></h2><!--titulo-->
+          <p class="card__contnido"></p><!--descripcion-->
+          <a class="card__link" href="">Ver + info</a>
+        </div>
+      </div>
+
     </section>
   </main>
 
