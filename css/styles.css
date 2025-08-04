@@ -6,3 +6,11 @@ main img {
   object-position: center;/* Centra la imagen dentro del contenedor */
   background: #eee; /* Opcional: color de fondo para los bordes vacíos */
 }
+.menu__lista {
+  /*display: flex;
+  justify-content: space-between;
+  align-items: center;*/
+  padding: 10px;
+  margin: 10px;
+}
+

@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+
+
+
+header {
+  background-color: lightpink;
+}
+main{
+  background-color: lightgoldenrodyellow;
+  padding: 20px;
+}
+footer{
+  background-color: lightgreen;
+  padding: 20px;
+}
+.main__uno {
+  background-color: #BD93F9;
+  padding:0px;
+  margin: 50px;
+  height: 80px;
+  width: 200px;
+  border: blue 10px solid;
+}
+.main__dos {
+  background-color: #8BE9FD;
+  padding: 20px;
+}
+.main__tres {
+  background-color: #FF79C6;
+  padding: 50px;
+  margin-left: 90px;
+  margin-right: 90px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+} 
